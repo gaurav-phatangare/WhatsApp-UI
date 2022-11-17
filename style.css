@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+body {
+    background-color: #666;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-container {
+    height: 844px;
+    width: 390px;
+    background-color:#fff ;
+}
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+    .main-container {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+header {
+    background-color: #075E54;
+}
+
+.upper-side-header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-top: 10px;
+}
+
+.app-logo {
+    margin-left: 10px;
+    width: 50%;
+}
+
+.right-side {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-right: 10px;
+
+}
+
+#pills-tabContent {
+    background-color: #fff;
+
+}
+
+.chats-container {
+    height: 45px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+
+.chats img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.user-card {
+    display: flex;
+    padding: 10px;
+
+}
+
+.user-profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.user-profile {
+    width: 20%;
+}
+
+.user-info h3 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.user-info {
+    width: 60%;
+    padding: 0 10px;
+}
+
+
+.user-info {
+    font-size: 12px;
+}
+
+.double-tick {
+    font-size: 9px;
+}
+
+.msg {
+    color: #666;
+}
+
+.user-date {
+    width: 20%;
+}
+
+.user-date span {
+    font-size: 12px;
+    margin-left: 18px;
+}
+
+
+
+/* user status */
+.user-status-profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+
+}
+
+.user-status-profile {
+    display: flex;
+    gap: 30px;
+    padding: 10px 7px;
+}
+
+.user-status-info {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: center;
+    gap: 3px;
+}
+
+.user-status-info h4 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.user-status-info span {
+    font-size: 12px;
+    color: #777;
+}
+
+.status-img-section {
+    position: relative;
+
+}
+
+.plus-icon {
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    background-color: white;
+    border-radius: 100%;
+    border: 1.3px solid white;
+    font-size: 17px;
+}
+
+.recent-update {
+    font-size: 11px;
+    color: #555;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+}
+
+.unseen {
+    border: 3px dashed green;
+}
+
+.clip {
+    height: 40px;
+    width: 40px;
+    background-color: #25D366;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+
+.tilt-arrow {
+    transform: rotate(30deg);
+    color: #25D366;
+}
+
+.user-date.func-icon {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    padding-right: 10px;
+
+}
+
+.call-icon {
+    font-size: 18px;
+    color: #075E54;
+}
+
+.tilt-arrow.red-arrow {
+    transform: rotate(220deg);
+    color: red;
+}
+
+.nav-btn {
+    background: none;
+    border: none;
+    color: hsla(0, 0%, 100%, 0.55);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.nav-pills {
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.fa-users {
+    width: 15%;
+    color: hsla(0, 0%, 100%, 0.55);
+    padding-left: 10px;
+}
+
+.nav-item {
+    width: 28.3%;
+    text-align: center;
+}
+
+.nav-btn.active {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
