@@ -32,7 +32,7 @@ body {
 .main-container {
     height: 844px;
     width: 390px;
-    background-color:#fff ;
+    background-color: #fff;
 }
 
 /* mobile */
@@ -267,4 +267,106 @@ header {
 .nav-btn.active {
     color: #fff;
     border-bottom: 2px solid #fff;
+}
+
+/* status modal css */
+.status-modal {}
+
+.status-modal .user-card {
+    display: flex;
+    padding: 10px;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.status-modal .user-profile .fa-arrow-left {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.status-modal .user-profile img {
+    border: 2px solid black;
+}
+
+.status-modal .user-profile {
+    width: 30%;
+}
+
+.status-modal .user-info {
+    width: 65%;
+}
+
+.status-modal .user-date {
+    width: 5%;
+}
+
+
+.status-container {
+    height: 400px;
+    width: 100%;
+    background-color: blue;
+}
+
+
+.modal-body {
+    padding: 0;
+}
+
+.modal-body.status-modal {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.status-footer {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.status-footer span {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.status-footer i{
+
+}
+
+
+.status-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+
+
+.user-top, .user-bottom{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-top{
+    display: flex;
+    gap: 5px;
+}
+
+.user-top div{
+width: 33.33%;
+height: 5px;
+border-top: 3px solid black;
 }
